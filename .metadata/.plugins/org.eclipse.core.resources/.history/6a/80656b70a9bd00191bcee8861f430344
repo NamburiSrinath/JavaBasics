@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+public class Application {
+
+	/*
+	 * 
+	 * TO TAKE AND PRINT IN VARIOUS FORMATS
+	private static Scanner third;
+	private static Scanner second;
+	private static Scanner first;
+
+	public static void main(String[] args) {
+		first = new Scanner(System.in);
+		second = new Scanner(System.in);
+		third = new Scanner(System.in);
+
+		// Waiting to click enter button and UNBOXING
+		int firstt = first.nextInt();
+		String secondd = second.nextLine();
+		double thirdd = third.nextDouble();
+
+		System.out.println(firstt);
+		System.out.println(secondd);
+		System.out.println(thirdd);
+		*/
+	
+	
+	public static void main(String[] args) {
+
+		/*
+		Scanner value = new Scanner(System.in);
+		int a = 0;
+
+		do {
+			System.out.println("enter");
+			a = value.nextInt();
+
+		} while (a != 9);
+		System.out.println("Done");
+	*/
+		Scanner value = new Scanner(System.in);
+		String text = value.nextLine();
+
+		switch (text) {
+		case "hello":
+			System.out.println("Hi!!");
+			break;
+
+		case "bye":
+			System.out.println("Bye!!");
+			break;
+
+		default:
+			System.out.println("Out of conversation");
+
+		}
+	}
+	
+	
+
+		
+	
+	
+
+}
+
+
+

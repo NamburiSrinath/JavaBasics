@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		Scanner one = new Scanner(System.in);
+		
+		String two = one.nextLine();
+		
+		System.out.println(two);
+		
+		
+			
+	}
+
+}

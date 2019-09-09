@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Application {
+
+	/*
+	private static Scanner third;
+	private static Scanner second;
+	private static Scanner first;
+
+	public static void main(String[] args) {
+		first = new Scanner(System.in);
+		second = new Scanner(System.in);
+		third = new Scanner(System.in);
+
+		// Waiting to click enter button and UNBOXING
+		int firstt = first.nextInt();
+		String secondd = second.nextLine();
+		double thirdd = third.nextDouble();
+
+		System.out.println(firstt);
+		System.out.println(secondd);
+		System.out.println(thirdd);
+		*/
+	
+	do {
+		System.out.println("enter");
+		
+	}
+	
+	
+
+}
+
+
+
